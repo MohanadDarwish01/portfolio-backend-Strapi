@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_media_requests",
+  "info": {
+    "singularName": "social-media-request",
+    "pluralName": "social-media-requests",
+    "displayName": "social_media_requests",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client_name": {
+      "type": "string"
+    },
+    "client_email": {
+      "type": "email"
+    },
+    "brand_name": {
+      "type": "string"
+    },
+    "industry_type": {
+      "type": "string"
+    },
+    "target_audience": {
+      "type": "string"
+    },
+    "designs_purpose": {
+      "type": "text"
+    },
+    "platforms": {
+      "type": "json"
+    },
+    "post_types": {
+      "type": "json"
+    },
+    "designs_number": {
+      "type": "integer"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "colors": {
+      "type": "json"
+    },
+    "typography_style": {
+      "type": "json"
+    },
+    "brand_fonts": {
+      "type": "json"
+    },
+    "links": {
+      "type": "json"
+    },
+    "requests": {
+      "type": "json"
+    },
+    "budget_range": {
+      "type": "json"
+    },
+    "communications": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_informations",
+  "info": {
+    "singularName": "user-information",
+    "pluralName": "user-informations",
+    "displayName": "user_information",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "resume": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "profile_pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "admin_name": {
+      "type": "string"
+    },
+    "job_titles": {
+      "type": "json"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "platforms": {
+      "type": "json"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "about_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "birth_date": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "freelance_state": {
+      "type": "string"
+    },
+    "long_description": {
+      "type": "json"
+    }
+  }
+}
