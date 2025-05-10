@@ -30,6 +30,14 @@
     },
     "service_path": {
       "type": "string"
+    },
+    "social_media_request": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::social-media-request.social-media-request"
+    },
+    "active": {
+      "type": "boolean"
     }
   }
 }

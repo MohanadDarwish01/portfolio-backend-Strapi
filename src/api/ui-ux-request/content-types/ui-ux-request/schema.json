@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_ux_requests",
+  "info": {
+    "singularName": "ui-ux-request",
+    "pluralName": "ui-ux-requests",
+    "displayName": "UI_UX_request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client_name": {
+      "type": "string"
+    },
+    "client_email": {
+      "type": "email"
+    },
+    "brand_name": {
+      "type": "string"
+    },
+    "industry_type": {
+      "type": "string"
+    },
+    "designs_purpose": {
+      "type": "string"
+    },
+    "target_audience": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "json"
+    },
+    "post_types": {
+      "type": "json"
+    },
+    "designs_number": {
+      "type": "integer"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "json"
+    },
+    "typography_style": {
+      "type": "json"
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "budget_range": {
+      "type": "json"
+    },
+    "communications": {
+      "type": "json"
+    },
+    "brand_fonts": {
+      "type": "json"
+    },
+    "links": {
+      "type": "json"
+    },
+    "requests": {
+      "type": "json"
+    }
+  }
+}

@@ -56,12 +56,6 @@
     "platforms": {
       "type": "json"
     },
-    "start_date": {
-      "type": "string"
-    },
-    "end_date": {
-      "type": "string"
-    },
     "about_image": {
       "type": "media",
       "multiple": false,
@@ -90,6 +84,21 @@
     },
     "long_description": {
       "type": "json"
+    },
+    "start_date": {
+      "type": "integer"
+    },
+    "end_date": {
+      "type": "integer"
+    },
+    "experience_years": {
+      "type": "integer"
+    },
+    "projects_no": {
+      "type": "integer"
+    },
+    "clients_no": {
+      "type": "integer"
     }
   }
 }
